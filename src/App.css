@@ -1,0 +1,65 @@
+body{
+  background-color: #dbdbda;
+}
+
+.titlePokemonDodo  {
+  text-align: center;
+  background-color: rgb(100, 133, 244);
+  margin: 0;
+  height: 60px;
+  color: rgb(157, 237, 241);
+  font-size: 40px;
+}
+
+/* SEARCH AREA */
+
+.searchQidiruvPok {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.searchQidiruvPok > input {
+  width: 35%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+}
+
+input:focus {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+  outline: none;
+}
+
+.searchQidiruvPok > button {
+  background-color: rgb(5, 86, 85);
+  color: rgb(160, 247, 255);
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.NatijaKartasiDodo{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.NatijaKartasiDodo > .dodoCard {
+  width: 350px;
+  height: 480px;
+  background: #fff;
+  margin: 20px 0 0 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.dodoCard > img {
+  width: 50%;
+
+}
